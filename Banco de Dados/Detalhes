@@ -1,0 +1,43 @@
+- Hospedes
+	id_hospedes 
+	nome_completo 
+	dt_nascimento 
+	endereço
+	telefone
+	email 
+	cpf 
+
+- Funcionarios 
+	id_funcionario INT PRIMARY KEY NOT NULL,
+	nome_completo VARCHAR(100) NOT NULL,
+	cargo VARCHAR(25) NOT NULL,
+	telefone VARCHAR(15) NOT NULL,
+	id_reservas INT NOT NULL
+	
+
+- Tipo_Quarto
+	id_tipo INT PRIMARY KEY NOT NULL,
+	caracteristica VARCHAR(50) NOT NULL,
+	descrição VARCHAR(50) NOT NULL,
+	capacidade INT NOT NULL,
+	preço_noite NUMERIC(5,2) NOT NULL
+	
+- Quarto
+	id_quarto INT PRIMARY KEY NOT NULL,
+	num_quarto INT NOT NULL,
+	tipo VARCHAR(25) NOT NULL,
+	preço NUMERIC(5,2) NOT NULL,
+	id_tipo INT NOT NULL,
+
+CONSTRAINT id_tipoFK FOREIGN KEY (id_tipo)
+REFERENCES Tipo_Quarto (id_tipo)
+
+-- CREATE TABEL DE RELACIONAMENTO
+- Reservas
+	id_reservas INT PRIMARY KEY NOT NULL,
+	data_checkin DATE NOT NULL,
+	data_checkout DATE NOT NULL,
+	status VARCHAR(10) NOT NULL,
+	id_hospedes INT NOT NULL,
+	id_funcionario INT NOT NULL,
+	id_quarto INT NOT NULL,
