@@ -34,7 +34,7 @@
 - num_quarto
 - tipo 
 - preço 
-🔑 id_tipo 
+- 🔑 id_tipo 
 
 <h1> 👤  Tabela Reservas  </h1>
 	
@@ -42,6 +42,6 @@
 - data_checkin 
 - data_checkout
 - status 
-🔑 id_hospedes 
-🔑 id_funcionario 
-🔑 id_quarto 
+- 🔑 id_hospedes 
+- 🔑 id_funcionario 
+- 🔑 id_quarto 
