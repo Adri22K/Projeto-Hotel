@@ -1,9 +1,0 @@
-Hospedes: cpf, nome, data de nascimento, telefone, email
-
-Funcionarios: id_funcionario, Nome, Cargo gerente e recepcionista 
-
-reservas: id_reserva, id_funcionario, cpf do cliente como chave estrageira, id_quarto como chave estrangeira, dias da reserva, status da reserva
-
-quartos: id numero_quarto, chave estrangeira tipo de quarto, 
-
-tipos de quartos: id_tipo_quarto, tipo
