@@ -4,24 +4,35 @@ Esse repositorio será sobre o desenvolvimento da atividade de POO + DB, segue m
 # :books: Biblioteca em Java
 
 Implementar um sistema simples que apresenta via CLI um menu de Biblioteca com as opções:
-- Gerenciamento de Hóspedes :❌:
-- Gerenciamento de Funcionários :❌:
-- Gerenciamento de Reservas :❌:
-- Gerenciamento de Quartos da Reserva :❌:
-- Gerenciamento de Tipos de Quarto :❌:
+- Gerenciamento de Hóspedes ❌
+- Gerenciamento de Funcionários ❌
+- Gerenciamento de Reservas ❌
+- Gerenciamento de Quartos da Reserva ❌
+- Gerenciamento de Tipos de Quarto ❌
 
 
-<h1> ⚙  Pré-requisitos do sistema  </h1>
+<h1> ⚙  Requisitos Específicos  </h1>
 
-- Sistema deverá persistir os dados em um Banco de Dados;
-- Sistema não poderá utilizar nenhuma biblioteca externa para salvar dados; 
-- Sistema deverá ser feito com arquitetura MVC;
+- Requisitos de Interface de Usuário: Os usuários interagirão com o 
+sistema através de prompts de texto e menus
+
+- Requisitos de Banco de Dados: O banco de dados incluirá tabelas 
+para hóspedes, funcionários, reservas, quartos da reserva e tipos de quarto.
+
+- Requisitos de Desempenho: O sistema deve ser capaz de suportar a 
+entrada de até 100 reservas por dia.
+
+- Requisitos de Segurança: Os dados dos hóspedes devem ser 
+armazenados de forma segura para proteger a 
+privacidade dos hóspedes.
 
 <h1> ⚙  Pré-requisitos do ambiente  </h1>
 
 - Java Development Kit (JDK);
 - Maven;
 - Spring;
+- PostgreSQL;
+- BRModelo;
 
 <div> 
   <h1>Tecnologias Utilizadas</h1>
