@@ -40,8 +40,6 @@
 - 🔑 id_funcionario 
 - 🔑 id_quarto 
 
-</hr>
-
 # 📍 Cardinalidades
 
 <h5> Hóspedes </h5>
