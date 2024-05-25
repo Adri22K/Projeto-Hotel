@@ -1,7 +1,9 @@
 public class TipoQuarto {
     private int id;
-    private String type;
-    private int price;
+    private String caracteristica;
+    private String descrição;
+    private int capacidade;
+    private float preçoNoite;
 
     public int getId() {
         return id;
@@ -11,19 +13,34 @@ public class TipoQuarto {
         this.id = id;
     }
 
-    public String getType() {
-        return type;
+    public String getCaracteristica() {
+        return caracteristica;
     }
 
-    public void setType(String type) {
-        this.type = type;
+    public void setCaracteristica(String caracteristica) {
+        this.caracteristica = caracteristica;
     }
 
-    public int getPrice() {
-        return price;
+    public String getDescrição() {
+        return descrição;
     }
 
-    public void setPrice(int price) {
-        this.price = price;
+    public void setDescrição(String descrição) {
+        this.descrição = descrição;
+    }
+
+    public int getCapacidade() {
+        return capacidade;
+    }
+
+    public void setCapacidade(int capacidade) {
+        this.capacidade = capacidade;
+    }
+    public float getPreçoNoite() {
+        return preçoNoite;
+    }
+
+    public void setPreçoNoite(float preçoNoite) {
+        this.preçoNoite = preçoNoite;
     }
 }
