@@ -1,7 +1,9 @@
 public class Funcinario {
     private int id;
-    private String name;
-    private String role;
+    private String nomeCompleto;
+    private String cargo;
+    private String telefone;
+    private String Reserva;
 
     public int getId() {
         return id;
@@ -11,19 +13,35 @@ public class Funcinario {
         this.id = id;
     }
 
-    public String getName() {
-        return name;
+    public String getNomeCompleto() {
+        return nomeCompleto;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setNomeCompleto(String nomeCompleto) {
+        this.nomeCompleto = nomeCompleto;
     }
 
-    public String getRole() {
-        return role;
+    public String getcargo() {
+        return cargo;
     }
 
-    public void setRole(String role) {
-        this.role = role;
+    public void setCargo(String cargo) {
+        this.cargo = cargo;
+    }
+
+    public String getTelefone() {
+        return telefone;
+    }
+
+    public void setTelefone(String telefone) {
+        this.telefone = telefone;
+    }
+    
+    public String getReserva() {
+        return Reserva;
+    }
+
+    public void setReserva(String Reserva) {
+        this.Reserva = Reserva;
     }
 }
