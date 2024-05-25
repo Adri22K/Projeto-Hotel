@@ -6,38 +6,46 @@ import com.library.model.Reserva;
 import com.library.model.Quarto;
 import com.library.model.TipoQuarto;
 
-public class GuestView {
-    public void printGuestDetails(Guest guest) {
-        System.out.println("Guest Name: " + guest.getName());
-        System.out.println("Guest Email: " + guest.getEmail());
+public class Hospede {
+    public void mostarDetalhesHospede(Hospede hospede) {
+        System.out.println("Cadastro do Hóspede:");
+        System.out.println("Nome Completo: " + hospede.getNomeCompleto());
+        System.out.println("Data de Nascimento: " + hospede.getDtNascimento());
+        System.out.println("Endereço Completo: " + hospede.getEndereço());
+        System.out.println("Telefone: " + hospede.getTelefone());
+        System.out.println("Nome Completo: " + hospede.getNomeCompleto());
+        System.out.println("Nome Completo: " + hospede.getNomeCompleto());
+
     }
 }
 
-public class EmployeeView {
-    public void printEmployeeDetails(Employee employee) {
-        System.out.println("Employee Name: " + employee.getName());
-        System.out.println("Employee Role: " + employee.getRole());
+public class Funcionario {
+    public void mostarDetalhesFuncionario(Funcionario funcionario) {
+        System.out.println("Employee Name: " + funcionario.getName());
+        System.out.println("Employee Role: " + funcionario.getRole());
     }
 }
 
-public class ReservationView {
-    public void printReservationDetails(Reservation reservation) {
-        System.out.println("Reservation Start Date: " + reservation.getStartDate());
-        System.out.println("Reservation End Date: " + reservation.getEndDate());
+public class Reserva {
+    public void mostarDetalhesReserva(Reserva reserva) {
+        System.out.println("Reservation Start Date: " + reserva.getStartDate());
+        System.out.println("Reservation End Date: " + reserva.getEndDate());
     }
 }
 
-public class RoomView {
-    public void printRoomDetails(Room room) {
-        System.out.println("Room Type: " + room.getType());
-        System.out.println("Room Capacity: " + room.getCapacity());
+public class Quarto {
+    public void mostarDetalhesQuarto(Quarto quarto) {
+        System.out.println("Room Type: " + quarto.getType());
+        System.out.println("Room Capacity: " + quarto.getCapacity());
     }
 }
 
-public class RoomTypeView {
-    public void printRoomTypeDetails(RoomType roomType) {
-        System.out.println("Room Type: " + roomType.getType());
-        System.out.println("Room Type Price: " + roomType.getPrice());
+public class TipoQuarto {
+    public void mostarDetalhesTipoQuarto(TipoQuarto tipoQuarto) {
+        System.out.println("Room Type: " + tipoQuarto.getType());
+        System.out.println("Room Type Price: " + tipoQuarto.getPrice());
     }
 }
+
+
 
