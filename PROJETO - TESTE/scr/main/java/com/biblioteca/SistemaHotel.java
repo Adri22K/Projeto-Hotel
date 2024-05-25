@@ -1,39 +1,29 @@
-import java.util.Scanner;
+class HotelController {
+    private HotelController view;
 
-public class HotelManagement {
+    public HotelController() {
+        view = new HotelController();
+    }
 
-    public static void main(String[] args) {
-        DatabaseManager.createTables();
-        
-        Scanner scanner = new Scanner(System.in);
+    public void start() {
         int choice;
-
         do {
-            System.out.println("========  Sistema de Gerenciamento do Hotel ======== ");
-            System.out.println("1. Gerenciamento de Hóspedes");
-            System.out.println("2. Gerenciamento de Funcionários");
-            System.out.println("3. Gerenciamento de Reservas");
-            System.out.println("4. Gerenciamento de Quartos da Reserva");
-            System.out.println("5. Gerenciamento de Tipos de Quarto");
-            System.out.println("0. Sair");
-            System.out.println("======== Escolha uma opção: ========");
-            choice = scanner.nextInt();
-
+            choice = view.showMenuAndGetChoice();
             switch (choice) {
                 case 1:
-                    HospedeManager.manage();
+                    System.out.println("Opção selecionada: Gerenciamento de Hóspedes.");
                     break;
                 case 2:
-                    FuncionarioManager.manage();
+                    System.out.println("Opção selecionada: Gerenciamento de Funcionários.");
                     break;
                 case 3:
-                    ReservaManager.manage();
+                    System.out.println("Opção selecionada: Gerenciamento de Reservas.");
                     break;
                 case 4:
-                    QuartoManager.manage();
+                    System.out.println("Opção selecionada: Gerenciamento de Quartos da Reserva.");
                     break;
                 case 5:
-                    TipoQuartoManager.manage();
+                    System.out.println("Opção selecionada: Gerenciamento de Tipos de Quarto.");
                     break;
                 case 0:
                     System.out.println("Saindo...");
@@ -42,7 +32,24 @@ public class HotelManagement {
                     System.out.println("Opção selecionada inválida! Tente novamente.");
             }
         } while (choice != 0);
-        
-        scanner.close();
+    }
+
+    private int showMenuAndGetChoice() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'showMenuAndGetChoice'");
+    }
+
+    // Métodos para a lógica de negócios correspondente a cada opção do menu
+}
+
+public class SistemaHotel {
+    public static void main(String[] args) {
+        HotelController controller = new HotelController();
+        controller.start();
+    }
+
+    @Override
+    public String toString() {
+        return "SistemaHotel []";
     }
 }
