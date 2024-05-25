@@ -1,9 +1,11 @@
 public class Reserva {
     private int id;
-    private int guestId;
-    private int roomId;
-    private int startDate;
-    private int endDate;
+    private String status;
+    private String Hospede;
+    private String Funcinario;
+    private String Quarto;
+    private int dataCheckin ;
+    private int dataCheckout ;
 
     public int getId() {
         return id;
@@ -13,35 +15,51 @@ public class Reserva {
         this.id = id;
     }
 
-    public int getGuestId() {
-        return guestId;
+    public String getStatus() {
+        return status;
     }
 
-    public void setGuestId(int guestId) {
-        this.guestId = guestId;
+    public void setStatus(String status) {
+        this.status = status;
     }
 
-    public int getRoomId() {
-        return roomId;
+    public String getHospede() {
+        return Hospede;
     }
 
-    public void setRoomId(int roomId) {
-        this.roomId = roomId;
+    public void setHospede(String Hospede, String string) {
+        this.Hospede = string;
     }
 
-    public int getStartDate() {
-        return startDate;
+    public String getFuncinario() {
+        return Funcinario;
     }
 
-    public void setStartDate(int startDate) {
-        this.startDate = startDate;
+    public void setFuncinario(String Funcinario) {
+        this.Funcinario = Funcinario;
     }
 
-    public int getEndDate() {
-        return endDate;
+    public String getQuarto() {
+        return Quarto;
     }
 
-    public void setEndDate(int endDate) {
-        this.endDate = endDate;
+    public void setQuarto(String Quarto) {
+        this.Quarto = Quarto;
+    }
+
+    public int getDataCheckin() {
+        return dataCheckin;
+    }
+
+    public void setDataCheckin(int dataCheckin) {
+        this.dataCheckin = dataCheckin;
+    }
+
+    public int getDataCheckout() {
+        return dataCheckout;
+    }
+
+    public void setDataCheckout(int dataCheckout) {
+        this.dataCheckout = dataCheckout;
     }
 }
