@@ -14,7 +14,6 @@
 - nome_completo 
 - cargo 
 - telefone
-- id_reservas 
 	
 
 <h3> 👤  Tabela Tipo Quarto  </h3>
