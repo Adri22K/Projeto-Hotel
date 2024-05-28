@@ -4,11 +4,11 @@ Esse repositorio será sobre o desenvolvimento da atividade de POO + DB, segue m
 # :books: Biblioteca em Java
 
 Implementar um sistema simples que apresenta via CLI um menu de Biblioteca com as opções:
-- Gerenciamento de Hóspedes ❌
-- Gerenciamento de Funcionários ❌
-- Gerenciamento de Reservas ❌
-- Gerenciamento de Quartos da Reserva ❌
-- Gerenciamento de Tipos de Quarto ❌
+- Gerenciamento de Hóspedes ✔️
+- Gerenciamento de Funcionários ✔️
+- Gerenciamento de Reservas ✔️
+- Gerenciamento de Quartos da Reserva ✔️
+- Gerenciamento de Tipos de Quarto ✔️
 
 
 <h1> ⚙  Requisitos Específicos  </h1>
