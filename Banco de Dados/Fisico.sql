@@ -29,7 +29,7 @@ CREATE TABLE Tipo_Quarto(
 
 CREATE TABLE Quarto(
 	id_quarto INT PRIMARY KEY NOT NULL,
-	num_quarto INT NOT NULL,
+	num_quarto INT UNIQUE NOT NULL,
 	tipo VARCHAR(25) NOT NULL,
 	preco NUMERIC(5,2) NOT NULL,
 	id_tipo INT NOT NULL,
