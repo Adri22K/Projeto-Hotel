@@ -37,7 +37,7 @@ privacidade dos hóspedes.
 <div> 
   <h1>Tecnologias Utilizadas</h1>
 
-[![My Skills](https://skillicons.dev/icons?i=github,java,vscode)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=github,java,vscode,spring,postgres)](https://skillicons.dev)
  </div>
 <div>
 
