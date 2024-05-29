@@ -5,7 +5,7 @@ CREATE TABLE Hospedes(
 	endereco VARCHAR(100) NOT NULL,
 	telefone VARCHAR(15) NOT NULL,
 	email VARCHAR(50),
-	cpf VARCHAR(15) NOT NULL
+	cpf VARCHAR(15) UNIQUE NOT NULL
 
 );
 
