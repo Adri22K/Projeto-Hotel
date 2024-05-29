@@ -43,8 +43,7 @@ privacidade dos hóspedes.
 
 <h1> ⚙ Banco de Dados </h1>
 
-Vamos usar o  
-<a href="https://start.spring.io/">Spring Initilizr</a> 
+Vamos usar o  <a href="https://start.spring.io/">Spring Initilizr</a> 
 
 Com as seguintes configurações:
 
